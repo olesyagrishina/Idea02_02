@@ -14,6 +14,6 @@ public class Test1 {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("summer"));
+                .body("data", equalTo("winter"));
     }
 }
